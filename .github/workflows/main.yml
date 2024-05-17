@@ -19,9 +19,6 @@ jobs:
           distribution: 'temurin'
       - name: Build with Maven
         run: mvn -B package --file pom.xml
-      - name: Print test results
-        if: failure()
-        run: cat /home/runner/work/TP_homework_2/TP_homework_2/target/surefire-reports/*.txt
       - name: Send Telegram notification on success
         if: success()
         uses: appleboy/telegram-action@master
