@@ -1,4 +1,4 @@
-![example workflow](https://github.com/Pa-u-li-na/Task-2/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/Pa-u-li-na/TP-Task-2/actions/workflows/main.yml/badge.svg)
 
 
 # Основная программа
